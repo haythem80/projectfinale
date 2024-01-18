@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.travelia{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    position: sticky;
+    /* background-color: aqua; */
+}
+
+body{ 
+    height: 750px; 
+    background-color:rgb(255, 240, 243); 
+    background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/3651fa81381729.5cfe55542529a.jpg); 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-attachment: fixed; 
+    background-size: cover;
+} 
+
+
+
+.title{
+    display:flex;
+    margin-right: 50px;
+    font-family: roboto, Arial, sans-serif;
+    color: black;
+}
+
+.title2{
+    display: flex;
+    list-style: none;
+    margin-right: 200px;
+    margin-top: 30px;
+    font-size:17px ;
+    font-family: roboto, Arial, sans-serif;
+    color: black;
+
+}
+
+.fa-passport {
+    margin-right: 10px;
+    margin-top: 25px;
+    font-size: 25px;
+    color:rgb(161, 85, 241);
+}
+
+.p1{
+    margin-bottom: 40px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+
+#home{
+    margin-right: 100px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+#about{
+    margin-right: 100px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+#services{
+    margin-right: 100px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+#contact{
+    margin-right: 100px;
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+#dest{
+    text-decoration: none;
+    color:#000000;
+}
+
+#toggledark{
+    font-size: 30px;
+    margin-left: 60px;
+    /* margin-top: px; */
+    cursor: pointer;
+}
+
+
+
+
+
+.btn{
+    margin-left: 20px;
+    border-radius: 30px;
+    border-style: none;
+    padding: 10px 20px 10px 20px;
+    background-color:rgb(161, 85, 241);
+    font-family: roboto, Arial, sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.txt{
+    font-family: roboto, Arial, sans-serif;
+    color:black;
+    font-size: 50px;
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+
+.photo{
+    position:relative; 
+    margin-left: 800px;
+    bottom: 250px;
+    font-size: 30px;
+}
+
+.txt2{
+    color: #918f8f;
+    font-family: Roboto , Arial , sans-serif;
+    margin-left: 100px;
+}
+
+#explore{
+position: relative;
+margin-left: 100px;
+top: 120px;
+padding: 10px 40px 10px 20px;
+border-radius: 17px;
+background-color:#f7c0bc ;
+color:#c7726c;
+border-style: none;
+cursor: pointer;
+
+}
+
+.fa-earth-americas{
+    position: relative;
+    top: 120px;
+    right:37px;
+    color:rgb(78, 78, 251);
+    cursor: pointer;
+}
+
+
+.media{
+    font-size: 40px;
+    margin-left: 100px;
+    position : relative;
+    top:70px;
+}
+.fa-facebook{
+    cursor: pointer;
+    color:blue;
+}
+.fa-twitter{
+    cursor: pointer;
+    color:rgb(92, 184, 237);
+    margin-left: 20px;
+}
+.fa-youtube{
+    cursor: pointer;
+    color:red;
+    margin-left:20px ;
+}
+.fa-whatsapp{
+    cursor: pointer;
+    color: rgb(67, 212, 67);
+    margin-left:20px ;
+}
+
+
+
+
+.text{
+    text-align: center;
+    font-family: Roboto , Arial , sans-serif; 
+    font-size:17px;
+    margin-bottom:100px;  
+    color:rgb(161, 85, 241)
+}
+
+
+
+
+.card{
+    border-radius: 5%;
+    text-align: center;
+    margin-left: 100px;
+    background-color:#f4d6d3;
+    height:250px ;
+}
+
+.card:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgb(132, 132, 132);
+    
+}
+
+.card-body{
+    height: 150px;
+}
+
+.card-title{
+    font-family: Roboto , Arial , sans-serif;
+
+}
+
+.card-text{
+    color: #918f8f;
+    font-family: Roboto , Arial , sans-serif;
+}
+
+.fa-money-check-dollar{
+    font-size: 50px;
+    margin-top: 20px;
+    color: rgb(132, 202, 132);
+}
+
+.card2{
+    border-radius: 5%;
+    text-align: center;
+    background-color:#f4d6d3;
+    height:250px ;
+    margin-left: 50px;
+}
+
+.card2:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgb(132, 132, 132);
+}
+
+.card-title2{
+    font-family: Roboto , Arial , sans-serif;
+
+}
+
+.card-text2{
+    color: #918f8f;
+    font-family: Roboto , Arial , sans-serif;
+}
+
+.fa-earth-africa{
+    font-size: 50px;
+    margin-top: 20px;
+    color:blue;
+}
+
+.cartes{
+    display:flex;
+}
+
+.card3{
+    border-radius: 5%;
+    text-align: center;
+    background-color:#f4d6d3;
+    height:250px ;
+    margin-left: 50px;
+}
+
+.card3:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgb(132, 132, 132);
+}
+
+.card-title3{
+    font-family: Roboto , Arial , sans-serif;
+
+}
+
+.card-text3{
+    color: #918f8f;
+    font-family: Roboto , Arial , sans-serif;
+}
+
+.fa-user{
+    font-size: 50px;
+    margin-top: 20px;
+    color: rgb(111, 159, 237);
+}
+
+.card4{
+    border-radius: 5%;
+    text-align: center;
+    background-color:#f4d6d3;
+    height:250px ;
+    margin-left: 50px;
+}
+
+.card4:hover{
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 rgb(132, 132, 132);
+}
+
+.card-title4{
+    font-family: Roboto , Arial , sans-serif;
+
+}
+
+.card-text4{
+    color: #918f8f;
+    font-family: Roboto , Arial , sans-serif;
+}
+
+.fa-ticket{
+    font-size: 50px;
+    margin-top: 20px;
+    color: rgb(164, 183, 203);
+}

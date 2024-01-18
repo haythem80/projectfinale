@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{  
+    height: 750px;  
+    background-image: url(https://i.pinimg.com/736x/9b/d9/4a/9bd94a5869152b62defccefcc4634d8a.jpg);  
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-attachment: fixed;  
+    background-size: cover;  
+}  
+.partie1{
+    height: 1685.8px;
+    width: 1500px;
+    
+}
+.cad{
+    height: 341.6px;
+    width:311px;
+    border:1px solid white;
+    border-radius: 5px;
+    max-width: 311px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+}
+
+.cad:hover{
+    box-shadow: 0 5px 10px 0 rgb(194, 194, 194);
+    transition: box-shadow .2s ease 0s;
+}
+
+.cad-title{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 18px;
+    color: rgb(116,116,116);
+    position:relative;
+    left:20px
+}
+
+.fa-heart{
+    margin-left: 260px;
+    position: relative;
+    bottom:88px;
+    font-size: 20px;
+    color:rgb(116,116,116);
+}
+
+.fa-trash{
+    margin-left: 230px;
+    position: relative;
+    bottom:110px;
+    font-size: 20px;
+    color:rgb(116,116,116);
+}
+
+.price{
+    margin-left: 140px;
+    font-family: Roboto,Arial,sans-serif;
+    position: relative;
+    bottom:45px;
+    font-size: 18px;
+}
+
+#pays1{
+    height:270px;
+    width: 289px;
+}
+
+
+.cad2{
+    height: 341.6px;
+    width:311px;
+    border:1px solid white;
+    border-radius: 5px;
+    max-width: 311px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #fff;
+}
+
+.cad2:hover{
+    box-shadow: 0 5px 10px 0 rgb(194, 194, 194);
+    transition: box-shadow .2s ease 0s;
+}
+
+.cad-title2{
+    font-family: Roboto,Arial,sans-serif;
+    font-size: 18px;
+    color: rgb(116,116,116);
+    position:relative;
+    left:20px
+}
+
+.fa-heart{
+    margin-left: 260px;
+    position: relative;
+    bottom:88px;
+    font-size: 20px;
+    color:rgb(116,116,116);
+}
+
+.fa-trash{
+    margin-left: 230px;
+    position: relative;
+    bottom:110px;
+    font-size: 20px;
+    color:rgb(116,116,116);
+}
+
+.price2{
+    margin-left: 140px;
+    font-family: Roboto,Arial,sans-serif;
+    position: relative;
+    bottom:45px;
+    font-size: 18px;
+}
+
+#pays2{
+    height:270px;
+    width: 289px;
+}
+
+.monde{
+    display:flex;
+}
+.monde2{
+    display:flex;
+}

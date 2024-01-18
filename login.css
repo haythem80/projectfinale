@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body{
+    background-image: url(https://img.freepik.com/premium-photo/purple-color-background-backdrop-background-plain-text-product_38810-8978.jpg);  
+    background-repeat: no-repeat;  
+    background-position: center; 
+    background-attachment: fixed;  
+    background-size: cover; 
+}
+
+
+#title{
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+
+.elment1{
+    width: 20%;
+    border: 1px;
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+
+
+.btn-primary{
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+.fa-eye-slash{
+    margin-left: 90%;
+    position: relative;
+    bottom: 29px;
+}
+
+.form-label{
+    color:white;
+}
+
+.form-control{
+    background-color: transparent;
+}
+
+
+
+
+
